@@ -1,0 +1,107 @@
+﻿@model Cliniq.DAL.Entities.Patient
+
+@{
+    ViewData["Title"] = "Edit Patient";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow">
+
+                <div class="card-header " style="background-color:teal ; color:white">
+                    <h3>Edit Patient</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-action="Edit" method="post">
+
+                        <!-- Hidden Id -->
+
+                        <input asp-for="Id" hidden />
+
+                        <!-- Name -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Patient Name
+                            </label>
+
+                            <input asp-for="Name"
+                                   class="form-control" />
+
+                        </div>
+
+                        <!-- Age -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Age
+                            </label>
+
+                            <input asp-for="Age"
+                                   class="form-control" />
+
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Address
+                            </label>
+
+                            <input asp-for="address"
+                                   class="form-control" />
+
+                        </div>
+
+                        <!-- Complaint -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Complaint
+                            </label>
+
+                            <textarea asp-for="complaint"
+                                      class="form-control"
+                                          rows="4">
+                            </textarea>
+
+                            </div>
+
+                            <!-- Buttons -->
+
+                            <div class="d-flex justify-content-between">
+
+                                <a asp-action="Index"
+                                       class="btn btn-secondary">
+                                    Back
+                                </a>
+
+                                <button type="submit"
+                                        class="btn btn-warning">
+                                    Update
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>

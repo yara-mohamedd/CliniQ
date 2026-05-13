@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Cliniq.BLL/Cliniq.BLL.csproj" />
+  <Project Path="Cliniq.DAL/Cliniq.DAL.csproj" />
+  <Project Path="Cliniq.PL/Cliniq.PL.csproj" />
+</Solution>

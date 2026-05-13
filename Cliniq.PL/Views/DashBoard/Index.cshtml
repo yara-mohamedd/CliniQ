@@ -1,0 +1,265 @@
+﻿@model Cliniq.PL.ViewModels.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<div class="d-flex">
+
+    <!-- Sidebar -->
+
+    <div class="bg-dark text-white p-3"
+         style="width:300px;min-height:100vh;">
+
+        <h3 class="mb-4 text-center"
+            style="color:#1D9E75;">
+            CliniQ
+        </h3>
+
+        <div class="d-grid gap-3">
+
+            <a asp-controller="Dashboard"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-speedometer2 me-2"></i>
+                Dashboard
+            </a>
+
+            <a asp-controller="Patient"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-people-fill me-2"></i>
+                Patients
+            </a>
+
+            <a asp-controller="Appointment"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-calendar-check me-2"></i>
+                Appointments
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="container-fluid p-4">
+
+        <!-- Header -->
+
+        <div class="mb-4">
+
+            <h2 class="fw-bold">
+                Clinic Dashboard
+            </h2>
+
+            <p class="text-muted">
+                Manage patients and appointments easily
+            </p>
+
+        </div>
+
+        <!-- Cards -->
+
+        <div class="row g-4 mb-5">
+
+            <!-- Total Patients -->
+
+            <div class="col-md-3">
+
+                <div class="card shadow border-0 rounded-4">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <div>
+
+                                <h6 class="text-muted">
+                                    Total Patients
+                                </h6>
+
+                                <h2 class="fw-bold">
+                                    @Model.TotalPatients
+                                </h2>
+
+                            </div>
+
+                            <i class="bi bi-people-fill fs-1"
+                               style="color:#1D9E75;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Active Patients -->
+
+            <div class="col-md-3">
+
+                <div class="card shadow border-0 rounded-4">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <div>
+
+                                <h6 class="text-muted">
+                                    Active Patients
+                                </h6>
+
+                                <h2 class="fw-bold">
+                                    @Model.ActivePatients
+                                </h2>
+
+                            </div>
+
+                            <i class="bi bi-person-check-fill fs-1"
+                               style="color:#1D9E75;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Pending -->
+
+            <div class="col-md-3">
+
+                <div class="card shadow border-0 rounded-4">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <div>
+
+                                <h6 class="text-muted">
+                                    Pending Appointments
+                                </h6>
+
+                                <h2 class="fw-bold">
+                                    @Model.PendingAppointments
+                                </h2>
+
+                            </div>
+
+                            <i class="bi bi-hourglass-split fs-1"
+                               style="color:#1D9E75;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Today -->
+
+            <div class="col-md-3">
+
+                <div class="card shadow border-0 rounded-4">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <div>
+
+                                <h6 class="text-muted">
+                                    Today's Appointments
+                                </h6>
+
+                                <h2 class="fw-bold">
+                                    @Model.TodayAppointments
+                                </h2>
+
+                            </div>
+
+                            <i class="bi bi-calendar-check-fill fs-1"
+                               style="color:#1D9E75;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Today Schedule -->
+
+        <div class="card shadow border-0 rounded-4">
+
+            <div class="card-header text-white"
+                 style="background:#1D9E75;">
+
+                <h5 class="mb-0">
+                    Today's Schedule
+                </h5>
+
+            </div>
+
+            <div class="card-body">
+
+                <table class="table table-hover">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Patient Name</th>
+                            <th>Complaint</th>
+                            <th>Status</th>
+                            <th>Appointment Date</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var item in Model.TodaySchedule)
+                        {
+                            <tr>
+
+                                <td>@item.Patient.Name</td>
+
+                                <td>@item.Patient.complaint</td>
+
+                                <td>@item.Status</td>
+
+                                <td>@item.appointmentDate</td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

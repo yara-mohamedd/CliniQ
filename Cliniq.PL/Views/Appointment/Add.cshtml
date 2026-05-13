@@ -1,0 +1,110 @@
+﻿@model Cliniq.DAL.Entities.Appointment
+@using Cliniq.DAL.Enum
+
+@{
+    ViewData["Title"] = "Add Appointment";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow">
+
+                <div class="card-header"
+                     style="background:#1D9E75;color:#fff">
+                    <h3>Add New Appointment</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-action="Add" method="post">
+
+                        <!-- Patient Id -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Patient Id
+                            </label>
+
+                            <input asp-for="PatientId"
+                                   class="form-control" />
+
+                            <span asp-validation-for="PatientId"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+
+                       
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Appointment Date
+                            </label>
+
+                            <input asp-for="appointmentDate"
+                                   type="datetime-local"
+                                   class="form-control" />
+
+                            <span asp-validation-for="appointmentDate"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+                        <!-- Status -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Status
+                            </label>
+
+                            <select asp-for="Status"
+                                    class="form-control"
+                                    asp-items="Html.GetEnumSelectList<AppointmentStatus>()">
+                            </select>
+
+                            <span asp-validation-for="Status"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+
+                        <!-- Buttons -->
+
+                        <div class="d-flex justify-content-between">
+
+                            <a asp-action="Index"
+                                   class="btn btn-secondary">
+                                Back
+                            </a>
+
+                            <button type="submit"
+                                    class="btn btn-primary">
+                                Save Appointment
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

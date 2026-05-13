@@ -1,0 +1,95 @@
+﻿@model List<Cliniq.DAL.Entities.Patient>
+
+@{
+    ViewData["Title"] = "Patients";
+}
+<div class="p-5">
+<div class="d-flex align-items-center justify-content-between mb-4">
+    <div class="d-flex align-items-center gap-2">
+  
+        <h2 class="mb-0">Clini<span style="color:#1D9E75">Q</span> — Patients</h2>
+    </div>
+
+  
+    <a asp-action="Create" class="btn d-flex align-items-center gap-1"
+           style="background:#1D9E75;color:#fff;border-radius:8px;">
+        <i class="bi bi-plus-lg"></i> Add New Patient
+    </a>
+</div>
+<form asp-action="Index" method="get" class="mb-3">
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+            <input type="text"
+                   name="searchName"
+                   class="form-control"
+                   placeholder="Search By Name" />
+
+        </div>
+
+        <div class="col-md-4">
+
+            <button type="submit"
+                    class="btn" style=" background:#1D9E75;color:#fff;border-radius:8px">
+
+                Search
+
+            </button>
+
+        </div>
+
+    </div>
+
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr >
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Complaint</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var patient in Model)
+        {
+            <tr>
+                <td>@patient.Id</td>
+
+                <td>@patient.Name</td>
+
+                <td>@patient.Age</td>
+
+                <td>@patient.address</td>
+
+                <td>@patient.complaint</td>
+
+                <td>@patient.CreatedAt</td>
+
+                <td>
+                    <a asp-action="Edit"
+                           asp-route-id="@patient.Id"
+                           class="btn  btn-sm" style="background:#1D9E75;color:#fff;border-radius:8px">
+                        Edit
+                    </a>
+
+                    <a asp-action="Delete"
+                           asp-route-id="@patient.Id"
+                           class="btn btn-danger btn-sm">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</div>

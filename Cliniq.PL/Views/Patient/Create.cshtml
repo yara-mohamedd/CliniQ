@@ -1,0 +1,107 @@
+﻿@model Cliniq.DAL.Entities.Patient
+
+@{
+    ViewData["Title"] = "Add Patient";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow">
+
+                <div class="card-header  " style="background:#1D9E75;color:#fff">
+                    <h3>Add New Patient</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-action="Create" method="post">
+
+                        <!-- Name -->
+
+                        <div class="mb-3">
+                            <label class="form-label">Patient Name</label>
+
+                            <input asp-for="Name"
+                                   class="form-control" />
+
+                            <span asp-validation-for="Name"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <!-- Age -->
+
+                        <div class="mb-3">
+                            <label class="form-label">Age</label>
+
+                            <input asp-for="Age"
+                                   class="form-control" />
+
+                            <span asp-validation-for="Age"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="mb-3">
+                            <label class="form-label">Address</label>
+
+                            <input asp-for="address"
+                                   class="form-control" />
+
+                            <span asp-validation-for="address"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <!-- Complaint -->
+
+                        <div class="mb-3">
+                            <label class="form-label">Complaint</label>
+
+                            <textarea asp-for="complaint"
+                                      class="form-control"
+                                          rows="4">
+                            </textarea>
+
+                                <span asp-validation-for="complaint"
+                                      class="text-danger"></span>
+                            </div>
+
+                            <!-- Submit -->
+
+                            <div class="d-flex justify-content-between">
+
+                                <a asp-action="Index"
+                                       class="btn btn-secondary">
+                                    Back
+                                </a>
+
+                                <button type="submit"
+                                        class="btn btn-primary">
+                                    Save Patient
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    @section Scripts
+    {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }

@@ -1,0 +1,58 @@
+﻿@model List<Cliniq.DAL.Entities.Appointment>
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+<div class="p-5">
+<h2 class="mb-4">Clini<span style="color:#1D9E75">Q</span> — Appointmets</h2>
+<a asp-action="Add" class="btn mb-4  "
+       style="background:#1D9E75;color:#fff;border-radius:8px;">
+    <i class="bi bi-plus-lg"></i> Add New Appointment
+</a>
+
+<table class="table table-bordered table-striped">
+    
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Patient Name</th>
+                    <th>Complaint</th>
+                    <th>Status</th>
+                    <th>Appointment Date</th>
+                </tr>
+            </thead>
+     
+
+    <tbody>
+
+        @foreach (var appointment in Model)
+        {
+
+
+            <tr>
+                <td>@appointment.Id</td>
+                <td>@appointment.Patient.Name</td>
+                <td>@appointment.Patient.complaint</td>
+                <td>@appointment.Status</td>
+                <td>@appointment.appointmentDate</td>
+
+                <td>
+                    <a asp-action="Edit"
+                           asp-route-id="@appointment.Id"
+                           class="btn btn-sm"
+                           style="background:#1D9E75;color:#fff;border-radius:8px">
+                        Edit
+                    </a>
+
+                    <a asp-action="Delete"
+                           asp-route-id="@appointment.Id"
+                           class="btn btn-danger btn-sm">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</div>

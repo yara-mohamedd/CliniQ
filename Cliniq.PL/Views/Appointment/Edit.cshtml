@@ -1,0 +1,95 @@
+﻿@using Cliniq.DAL.Enum
+@model Cliniq.DAL.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow">
+
+                <div class="card-header " style="background-color:teal ; color:white">
+                    <h3>Edit Patient</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-action="Edit" method="post">
+
+                        <!-- Hidden Id -->
+
+                        <input asp-for="Id" hidden />
+
+                        <!-- patient id -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Patient Id
+                            </label>
+
+                            <input asp-for="PatientId"
+                                   class="form-control" />
+
+                        </div>
+
+                        <!-- app date -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Appointment Date
+                            </label>
+
+                            <input asp-for="appointmentDate"
+                                   class="form-control" />
+
+                        </div>
+
+                        <!-- STATUS -->
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                status
+                            </label>
+
+                            <select asp-for="Status"
+                                    class="form-control"
+                                    asp-items="Html.GetEnumSelectList<AppointmentStatus>()">
+                            </select>
+
+                        </div>
+
+                            <!-- Buttons -->
+
+                            <div class="d-flex justify-content-between">
+
+                                <a asp-action="Index"
+                                       class="btn btn-secondary">
+                                    Back
+                                </a>
+
+                                <button type="submit"
+                                        class="btn btn-warning">
+                                    Update
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
