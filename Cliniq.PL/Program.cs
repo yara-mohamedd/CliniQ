@@ -1,7 +1,10 @@
 using Cliniq.BLL.Services.Abstraction;
 using Cliniq.BLL.Services.Implementation;
+using Cliniq.DAL.Entities;
+using Cliniq.DAL.identity;
 using Cliniq.DAL.Repo.Abstraction;
 using Cliniq.DAL.Repo.Implementation;
+using Microsoft.AspNetCore.Identity;
 
 namespace Cliniq.PL
 {
@@ -20,15 +23,28 @@ namespace Cliniq.PL
             builder.Services.AddScoped<IAppointmentRepo, AppointmentRepo>();
 
 
-            // =========================
+           
             // Services
-            // =========================
+            
 
             builder.Services.AddScoped<IPatientService, PatientService>();
 
             builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 
             builder.Services.AddScoped<IDashboardService, DashboardService>();
+            builder.Services.AddDbContext<Context>();
+           
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 6;
+})
+.AddEntityFrameworkStores<Context>()
+.AddDefaultTokenProviders();
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
@@ -43,12 +59,13 @@ namespace Cliniq.PL
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Dashboard}/{action=Index}/{id?}")
+                pattern: "{controller=Account}/{action=Register}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

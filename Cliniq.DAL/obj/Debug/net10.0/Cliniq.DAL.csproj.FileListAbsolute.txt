@@ -12,3 +12,4 @@ C:\Users\ELMOHANDES\source\repos\CliniQ\Cliniq.DAL\obj\Debug\net10.0\refint\Clin
 C:\Users\ELMOHANDES\source\repos\CliniQ\Cliniq.DAL\obj\Debug\net10.0\Cliniq.DAL.pdb
 C:\Users\ELMOHANDES\source\repos\CliniQ\Cliniq.DAL\obj\Debug\net10.0\Cliniq.DAL.genruntimeconfig.cache
 C:\Users\ELMOHANDES\source\repos\CliniQ\Cliniq.DAL\obj\Debug\net10.0\ref\Cliniq.DAL.dll
+C:\Users\ELMOHANDES\source\repos\CliniQ\Cliniq.DAL\obj\Debug\net10.0\Cliniq.DAL.sourcelink.json

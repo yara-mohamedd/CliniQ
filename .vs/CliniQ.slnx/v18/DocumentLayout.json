@@ -3,76 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.dal\\repo\\implementation\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|solutionrelative:cliniq.dal\\repo\\implementation\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.bll\\services\\abstraction\\idashboardservieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|solutionrelative:cliniq.bll\\services\\abstraction\\idashboardservieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.bll\\services\\implementation\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|solutionrelative:cliniq.bll\\services\\implementation\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.bll\\services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBD2CD-C224-D0D6-E8A1-54BB7307D0E6}|Cliniq.BLL\\Cliniq.BLL.csproj|solutionrelative:cliniq.bll\\services\\implementation\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.pl\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97A303D9-CF5B-D7F2-E63D-933D2795F78F}|Cliniq.PL\\Cliniq.PL.csproj|solutionrelative:cliniq.pl\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.dal\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|solutionrelative:cliniq.dal\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|c:\\users\\elmohandes\\source\\repos\\cliniq\\cliniq.dal\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6927524A-2A7D-0C7E-5621-8714F35F5599}|Cliniq.DAL\\Cliniq.DAL.csproj|solutionrelative:cliniq.dal\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,6 +48,20 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Cliniq.PL\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:01:01.783Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -118,236 +96,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T17:03:41.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T17:03:37.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDashboardServieces.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Abstraction\\IDashboardServieces.cs",
-              "RelativeDocumentMoniker": "Cliniq.BLL\\Services\\Abstraction\\IDashboardServieces.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Abstraction\\IDashboardServieces.cs",
-              "RelativeToolTip": "Cliniq.BLL\\Services\\Abstraction\\IDashboardServieces.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:56:53.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Program.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Program.cs",
-              "RelativeToolTip": "Cliniq.PL\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:15:24.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppointmentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\Repo\\Implementation\\AppointmentRepo.cs",
-              "RelativeDocumentMoniker": "Cliniq.DAL\\Repo\\Implementation\\AppointmentRepo.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\Repo\\Implementation\\AppointmentRepo.cs",
-              "RelativeToolTip": "Cliniq.DAL\\Repo\\Implementation\\AppointmentRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:37:16.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Cliniq.PL\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T15:01:01.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Models\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Models\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Models\\DashboardViewModel.cs",
-              "RelativeToolTip": "Cliniq.PL\\Models\\DashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T15:09:13.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\DashBoard\\Index.cshtml",
               "RelativeDocumentMoniker": "Cliniq.PL\\Views\\DashBoard\\Index.cshtml",
               "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\DashBoard\\Index.cshtml",
               "RelativeToolTip": "Cliniq.PL\\Views\\DashBoard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T15:10:44.443Z",
+              "WhenOpened": "2026-05-16T17:56:27.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T15:24:52.187Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Program.cs",
+              "RelativeDocumentMoniker": "Cliniq.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Program.cs",
+              "RelativeToolTip": "Cliniq.PL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T15:47:00.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Cliniq.PL\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T15:45:41.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Appointment\\Index.cshtml",
               "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Appointment\\Index.cshtml",
               "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Appointment\\Index.cshtml",
               "RelativeToolTip": "Cliniq.PL\\Views\\Appointment\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T14:29:54.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Patient\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Patient\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Patient\\Index.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\Patient\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T15:46:05.808Z",
+              "WhenOpened": "2026-05-16T15:12:49.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Patient\\Create.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Patient\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Patient\\Create.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\Patient\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Cliniq.PL\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T15:46:03.464Z",
+              "WhenOpened": "2026-05-16T14:55:51.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Implementation\\DashboardService.cs",
-              "RelativeDocumentMoniker": "Cliniq.BLL\\Services\\Implementation\\DashboardService.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Implementation\\DashboardService.cs",
-              "RelativeToolTip": "Cliniq.BLL\\Services\\Implementation\\DashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Cliniq.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwDwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:48:36.288Z",
+              "WhenOpened": "2026-05-16T14:54:38.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Cliniq.PL\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Cliniq.DAL\\identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\identity\\AppUser.cs",
+              "RelativeToolTip": "Cliniq.DAL\\identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T15:01:07.129Z",
+              "WhenOpened": "2026-05-16T13:34:59.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "Cliniq.PL\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\Database\\Context.cs",
+              "RelativeDocumentMoniker": "Cliniq.DAL\\Database\\Context.cs",
+              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.DAL\\Database\\Context.cs",
+              "RelativeToolTip": "Cliniq.DAL\\Database\\Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T13:55:08.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Appointment\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Views\\Appointment\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Views\\Appointment\\Edit.cshtml",
-              "RelativeToolTip": "Cliniq.PL\\Views\\Appointment\\Edit.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAC0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T14:25:18.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AppointmentService.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Implementation\\AppointmentService.cs",
-              "RelativeDocumentMoniker": "Cliniq.BLL\\Services\\Implementation\\AppointmentService.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.BLL\\Services\\Implementation\\AppointmentService.cs",
-              "RelativeToolTip": "Cliniq.BLL\\Services\\Implementation\\AppointmentService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:14:44.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "Cliniq.PL\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\ELMOHANDES\\source\\repos\\CliniQ\\Cliniq.PL\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "Cliniq.PL\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T14:12:33.014Z",
+              "WhenOpened": "2026-05-16T13:27:06.164Z",
               "EditorCaption": ""
             }
           ]

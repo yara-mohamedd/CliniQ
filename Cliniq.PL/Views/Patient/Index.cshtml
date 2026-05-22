@@ -3,93 +3,167 @@
 @{
     ViewData["Title"] = "Patients";
 }
-<div class="p-5">
-<div class="d-flex align-items-center justify-content-between mb-4">
-    <div class="d-flex align-items-center gap-2">
-  
-        <h2 class="mb-0">Clini<span style="color:#1D9E75">Q</span> — Patients</h2>
-    </div>
 
-  
-    <a asp-action="Create" class="btn d-flex align-items-center gap-1"
-           style="background:#1D9E75;color:#fff;border-radius:8px;">
-        <i class="bi bi-plus-lg"></i> Add New Patient
-    </a>
-</div>
-<form asp-action="Index" method="get" class="mb-3">
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <div class="row">
+<div class="d-flex w-100">
 
-        <div class="col-md-3">
+    <!-- Sidebar -->
+    <div class="bg-dark text-white p-3"
+         style="width:300px; min-height:100vh;">
 
-            <input type="text"
-                   name="searchName"
-                   class="form-control"
-                   placeholder="Search By Name" />
+        <h3 class="mb-4 text-center" style="color:#1D9E75;">
+            CliniQ
+        </h3>
+
+        <div class="d-grid gap-3">
+
+            <a asp-controller="Dashboard"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-speedometer2 me-2"></i>
+                Dashboard
+            </a>
+
+            <a asp-controller="Patient"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-people-fill me-2"></i>
+                Patients
+            </a>
+
+            <a asp-controller="Appointment"
+               asp-action="Index"
+               class="btn btn-dark text-start">
+
+                <i class="bi bi-calendar-check me-2"></i>
+                Appointments
+            </a>
 
         </div>
 
-        <div class="col-md-4">
+    </div>
 
-            <button type="submit"
-                    class="btn" style=" background:#1D9E75;color:#fff;border-radius:8px">
+    <!-- Content -->
+    <div class="p-5 flex-grow-1">
 
-                Search
+        <!-- Header -->
+        <div class="d-flex align-items-center justify-content-between mb-4">
 
-            </button>
+            <h2 class="mb-0">
+                Clini<span style="color:#1D9E75">Q</span> — Patients
+            </h2>
+
+            <a asp-action="Create"
+               class="btn d-flex align-items-center gap-1"
+               style="background:#1D9E75;color:#fff;border-radius:8px;">
+
+                <i class="bi bi-plus-lg"></i>
+                Add New Patient
+            </a>
+
+        </div>
+
+        <!-- Search -->
+        <form asp-action="Index" method="get" class="mb-4">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-4">
+
+                    <input type="text"
+                           name="searchName"
+                           class="form-control"
+                           placeholder="Search By Name" />
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <button type="submit"
+                            class="btn w-100"
+                            style="background:#1D9E75;color:#fff;border-radius:8px;">
+
+                        Search
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+        <!-- Table -->
+        <div class="table-responsive">
+
+            <table class="table table-bordered table-striped w-100 align-middle">
+
+                <thead class="table-dark">
+
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                        <th>Complaint</th>
+                        <th>Created At</th>
+                        <th>Actions</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    @foreach (var patient in Model)
+                    {
+                        <tr>
+
+                            <td>@patient.Id</td>
+
+                            <td>@patient.Name</td>
+
+                            <td>@patient.Age</td>
+
+                            <td>@patient.address</td>
+
+                            <td>@patient.complaint</td>
+
+                            <td>@patient.CreatedAt</td>
+
+                            <td>
+
+                                <a asp-action="Edit"
+                                   asp-route-id="@patient.Id"
+                                   class="btn btn-sm"
+                                   style="background:#1D9E75;color:#fff;border-radius:8px;">
+
+                                    Edit
+
+                                </a>
+
+                                <a asp-action="Delete"
+                                   asp-route-id="@patient.Id"
+                                   class="btn btn-danger btn-sm">
+
+                                    Delete
+
+                                </a>
+
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
 
         </div>
 
     </div>
 
-</form>
-
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr >
-            <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Address</th>
-            <th>Complaint</th>
-            <th>Created At</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-
-    <tbody>
-
-        @foreach (var patient in Model)
-        {
-            <tr>
-                <td>@patient.Id</td>
-
-                <td>@patient.Name</td>
-
-                <td>@patient.Age</td>
-
-                <td>@patient.address</td>
-
-                <td>@patient.complaint</td>
-
-                <td>@patient.CreatedAt</td>
-
-                <td>
-                    <a asp-action="Edit"
-                           asp-route-id="@patient.Id"
-                           class="btn  btn-sm" style="background:#1D9E75;color:#fff;border-radius:8px">
-                        Edit
-                    </a>
-
-                    <a asp-action="Delete"
-                           asp-route-id="@patient.Id"
-                           class="btn btn-danger btn-sm">
-                        Delete
-                    </a>
-                </td>
-            </tr>
-        }
-
-    </tbody>
-</table>
 </div>
